@@ -1,0 +1,84 @@
+.restricted-sidebar {
+  position: fixed;
+  height: 100%;
+  padding: 32px 24px;
+  background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.restricted-sidebar img {
+  width: 48px;
+}
+
+.restricted-sidebar div {
+  display: grid;
+  grid-template-rows: repeat(2, 48px);
+  row-gap: 16px;
+}
+
+.restricted-sidebar div a {
+  width: 48px;
+  height: 48px;
+
+  border: 0;
+
+  background: #12AFCB;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restricted-sidebar div a svg {
+  color: #FFFFFF;
+  transition: color 0.2s;
+}
+
+.restricted-sidebar div a.active {
+  background: #FFD666;
+}
+
+.restricted-sidebar div a.active svg {
+  color: #0089A5;
+}
+
+.restricted-sidebar div a.active:hover svg {
+  color: #FFFFFF;
+}
+
+.restricted-sidebar div a:hover {
+  background: #17D6EB;
+}
+
+.restricted-sidebar footer a,
+.restricted-sidebar footer button {
+  width: 48px;
+  height: 48px;
+
+  border: 0;
+
+  background: #12AFCB;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restricted-sidebar footer a:hover,
+.restricted-sidebar footer button:hover {
+  background: #17D6EB;
+}

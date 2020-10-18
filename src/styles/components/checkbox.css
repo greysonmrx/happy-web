@@ -1,0 +1,30 @@
+#checkbox {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+}
+
+#checkbox .checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: #F5F8FA;
+  border: 1px solid #D3E2E5;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+#checkbox .checkmark.active {
+  background-color: #37C77F;
+  border: 1px solid #37C77F;
+}
+
+#checkbox span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #8FA7B2;
+}

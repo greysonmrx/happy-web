@@ -1,0 +1,60 @@
+#page-orphanage-created {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #37C77F;
+}
+
+#page-orphanage-created main {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+#page-orphanage-created main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin-right: 120px;
+}
+
+#page-orphanage-created main div h1 {
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 80px;
+  font-size: 80px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+#page-orphanage-created main div p {
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 34px;
+  font-size: 24px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#page-orphanage-created main div a {
+  padding: 20px 40px;
+  background-color: #31B272;
+  font-weight: 800;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+#page-orphanage-created main div a:hover {
+  background-color: #3BD689;
+}
+
+#page-orphanage-created main img {
+  width: 400px;
+}

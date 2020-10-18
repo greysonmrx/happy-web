@@ -1,0 +1,31 @@
+#restricted-background {
+  height: 100vh;
+
+  display: flex;
+  flex: 1;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+}
+
+#restricted-background img {
+  margin-bottom: 100px;
+}
+
+#restricted-background div {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+#restricted-background div strong {
+  font-weight: 800;
+}

@@ -1,0 +1,46 @@
+#orphanage-card {
+  flex: 1;
+  background: #FFFFFF;
+  border: 1px solid #D3E2E5;
+  border-radius: 20px;
+}
+
+#orphanage-card footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+}
+
+#orphanage-card footer span {
+  line-height: 34px;
+  font-size: 24px;
+  color: #4D6F80;
+  font-weight: 700;
+}
+
+#orphanage-card footer div {
+  display: grid;
+  grid-template-columns: repeat(2, 48px);
+  column-gap: 8px;
+}
+
+#orphanage-card footer a {
+  background-color: #EBF2F5;
+  border-radius: 16px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+#orphanage-card footer a:hover {
+  background-color: #D3E2E5;
+}
+
+#orphanage-card .leaflet-container {
+  border-bottom: 1px solid #DDE3F0;
+  border-radius: 20px;
+}

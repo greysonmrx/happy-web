@@ -1,0 +1,62 @@
+.page-orphanages-pending {
+  display: flex;
+  min-height: 100vh;
+}
+
+.page-orphanages-pending main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 64px;
+  margin-left: 96px;
+}
+
+.page-orphanages-pending main .wrapper {
+  flex: 1;
+  max-width: 1120px;
+}
+
+.page-orphanages-pending main .wrapper header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #D3E2E5;
+}
+
+.page-orphanages-pending main .wrapper header h1 {
+  color: #4D6F80;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.page-orphanages-pending main .wrapper header span {
+  color: #8FA7B2;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.page-orphanages-pending main .wrapper .orphanages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 32px;
+  row-gap: 32px;
+  margin-top: 40px;
+}
+
+.page-orphanages-pending main .wrapper .no-orphanages {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-orphanages-pending main .wrapper .no-orphanages h3{
+  margin-top: 16px;
+  color: #8FA7B2;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
